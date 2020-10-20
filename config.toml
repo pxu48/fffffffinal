@@ -1,0 +1,35 @@
+baseurl = "/"
+languageCode = "en"
+title = "Irene's Kingdom"
+copyright = "ROI>>>1000" 
+paginate = 3
+
+googleAnalytics = "Yout Google Analytics ID"
+
+theme = "minimage"
+
+[params]
+  description = "Welcome to my wonderland and enjoy this fantasy :)"
+  author = "Irene Xu"
+  logo = '/image/logo.png'
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.global]]
+    name = "Chase Irene"
+    url = "/categories/Chase Irene/"
+
+[[menu.global]]
+    name = "Explore Irene"
+    url = "/categories/Explore Irene/"
+
+[[menu.footer]]
+    name = "Exit Option"
+    url = "/page/Exit Option/"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
